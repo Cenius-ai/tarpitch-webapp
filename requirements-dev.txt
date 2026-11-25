@@ -1,0 +1,3 @@
+# Development and test dependencies. The tool itself needs none of these.
+
+pytest==8.3.4
