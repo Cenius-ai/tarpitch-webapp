@@ -1,0 +1,11 @@
+# Python build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Local catalogue data written by the tool
+.tarpitch.json
+.tarpitch.json.*

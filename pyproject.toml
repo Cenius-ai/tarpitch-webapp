@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tarpitch"
+version = "1.0.0"
+description = "Catalogue pine resin tapping spots, log yields per tree visit, and chart seasonal flow."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["resin", "tapping", "pine", "cli", "field-notes"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+tarpitch = "tarpitch:main"
+
+[tool.setuptools]
+py-modules = ["tarpitch"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
